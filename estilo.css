@@ -18,11 +18,11 @@ body{
     justify-content: center;
     margin-bottom: 9vh;
 }
-/* Section Add Note */
+
 .add_note_article{
-    background-color: #a55eea;
-    width: 50vw;
-    height: 40vh;
+    background-color: #778ca3;
+    width: 60vw;
+    height: 50vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -68,9 +68,7 @@ body{
     font-weight: bold;
     margin-bottom: 8px;
 }
-/* Finish Section Add Note */
 
-/* Section your notes*/
 .your_note{
     background-color: #fff;
     width: 20vw;
