@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #ddd;
+}
+.title{
+    text-align: center;
+    margin: 15px;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 9vh;
+}
+/* Section Add Note */
+.add_note_article{
+    background-color: #a55eea;
+    width: 50vw;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.add_note_title{
+    margin: 10px 0 5px 0;
+    height: 20%;
+    width: 85%;
+    padding-left: 8px;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+.add_note_text{
+    resize: none;
+    width: 85%;
+    height: 60%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    margin-bottom: 5px;
+}
+.add_note_title::placeholder{
+    text-align: center;
+}
+.add_note_text::placeholder{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.add_note_btn, .delete_all_note_btn{
+    overflow: hidden;
+    margin: 3px;
+    width: 85%;
+    height: 20%;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.delete_all_note_btn{
+    background-color: rgb(109, 68, 255);
+    color: #eee;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+/* Finish Section Add Note */
+
+/* Section your notes*/
+.your_note{
+    background-color: #fff;
+    width: 20vw;
+    height: 30vh;
+    margin: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 20px;
+}
+.your_note input{
+    margin: 10px 15px 5px 0;
+    height: 20%;
+    width: 85%;
+    padding-left: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.your_note textarea{
+    resize: none;
+    border: none;
+    margin-right: 15px;
+    width: 85%;
+    height: 60%;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+div{
+    overflow: hidden;
+    margin: 3px;
+}
+.your_note img{
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 5px;
+}
+footer{
+    display: inline-block;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    width: 100vw;
+    background-color: #555;
+    margin-bottom: -4px;
+
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+}
